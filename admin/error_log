@@ -1,0 +1,25 @@
+[29-Sep-2017 14:17:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'ModelBlogOcblog' (T_STRING) in /home/gadgikne/public_html/admin/model/blog/ocblog.php on line 1
+[29-Sep-2017 14:17:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'ModelBlogOcblog' (T_STRING) in /home/gadgikne/public_html/admin/model/blog/ocblog.php on line 1
+[29-Sep-2017 14:17:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'ModelBlogOcblog' (T_STRING) in /home/gadgikne/public_html/admin/model/blog/ocblog.php on line 1
+[29-Sep-2017 14:28:16 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'gadgikne_store.gadgikne_banner' doesn't exist<br />Error No: 1146<br />TRUNCATE TABLE `gadgikne_banner`' in /home/gadgikne/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/gadgikne/public_html/system/library/db.php(16): DB\MySQLi->query('TRUNCATE TABLE ...', Array)
+#1 /home/gadgikne/public_html/admin/model/tool/backup.php(8): DB->query('TRUNCATE TABLE ...')
+#2 [internal function]: ModelToolBackup->restore('TRUNCATE TABLE ...')
+#3 /home/gadgikne/public_html/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/gadgikne/public_html/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+#6 /home/gadgikne/public_html/admin/controller/tool/backup.php(20): Proxy->__call('restore', Array)
+#7 /home/gadgikne/public_html/admin/controller/tool/backup.php(20): Proxy->restore('TRUNCATE TABLE ...')
+#8 [internal function]: Cont in /home/gadgikne/public_html/system/library/db/mysqli.php on line 40
+[29-Sep-2017 14:28:52 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'gadgikne_store.gadgikne_banner' doesn't exist<br />Error No: 1146<br />TRUNCATE TABLE `gadgikne_banner`' in /home/gadgikne/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/gadgikne/public_html/system/library/db.php(16): DB\MySQLi->query('TRUNCATE TABLE ...', Array)
+#1 /home/gadgikne/public_html/admin/model/tool/backup.php(8): DB->query('TRUNCATE TABLE ...')
+#2 [internal function]: ModelToolBackup->restore('TRUNCATE TABLE ...')
+#3 /home/gadgikne/public_html/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/gadgikne/public_html/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+#6 /home/gadgikne/public_html/admin/controller/tool/backup.php(20): Proxy->__call('restore', Array)
+#7 /home/gadgikne/public_html/admin/controller/tool/backup.php(20): Proxy->restore('TRUNCATE TABLE ...')
+#8 [internal function]: Cont in /home/gadgikne/public_html/system/library/db/mysqli.php on line 40
