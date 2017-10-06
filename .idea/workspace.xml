@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a54c8d-2468-44c4-86de-7042901a72f1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forinit/ocStore-2.3.0.2.3.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forinit/tt_oregon_quickstart_2.3.0.2.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forinit/tt_oregon_template_1.0.zip" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ocStore-2.3.0.2.3.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tt_oregon_quickstart_2.3.0.2.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tt_oregon_template_1.0.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/admin/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="481">
-              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+              <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -214,12 +219,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507305052311</updated>
-      <workItem from="1507305053999" duration="2193000" />
+      <workItem from="1507305053999" duration="2260000" />
     </task>
+    <task id="LOCAL-00001" summary="sdas">
+      <created>1507307259854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507307259854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2193000" />
+    <option name="totallyTimeSpent" value="2260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1679" height="1023" extended-state="0" />
@@ -249,6 +262,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdas" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -265,7 +282,7 @@
     <entry file="file://$PROJECT_DIR$/admin/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+          <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding />
         </state>
       </provider>
